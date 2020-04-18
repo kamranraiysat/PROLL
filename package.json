@@ -1,0 +1,36 @@
+{
+  "name": "pay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamranraiysat/pay.git"
+  },
+  "author": "Kamran Raiysat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamranraiysat/pay/issues"
+  },
+  "homepage": "https://github.com/kamranraiysat/pay#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.9.1",
+    "mocha": "^7.1.1",
+    "mysql": "^2.18.1",
+    "next": "^9.3.5",
+    "nodemon": "^2.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "solc": "^0.4.26",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  }
+}
